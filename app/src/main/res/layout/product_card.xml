@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_product"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/cardImage"
+        android:layout_width="140dp"
+        android:layout_height="109dp"
+        android:src="@drawable/security"
+
+
+        />
+    <TextView
+        android:id="@+id/cardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital Lock"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+
+        />
+    <TextView
+         android:id="@+id/cardPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200/-"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

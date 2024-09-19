@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Activity.ProductDetailActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        <ImageView
+            android:id="@+id/productImageDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/security"
+            android:padding="20dp"
+            />
+        <TextView
+            android:id="@+id/bestsellers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best SELLER"
+            android:textColor="@color/deepskyblue"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/productNameDetail"
+            android:text="Ac Servive"
+            android:textSize="24dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/productPriceDetail"
+            android:textSize="20dp"
+            android:text="$ 200 "
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/productDescriptionDetail"
+            android:textSize="16dp"
+            android:text="In AC  service  we  are provide the full ac  re  services  and  this is the best product "
+            android:layout_marginTop="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <ImageView
+                android:id="@+id/productSubImage"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wellcomeimage"
+                android:layout_marginLeft="10dp"
+                />
+            <ImageView
+                android:id="@+id/productSubImag"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/laptop3d"
+                android:layout_marginLeft="10dp"
+                />
+            <ImageView
+                android:id="@+id/productSubIma"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/security"
+                android:layout_marginLeft="10dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            >
+            <Button
+                android:id="@+id/productOrderDetail"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="order"
+                android:background ="@drawable/button_box"
+                android:backgroundTint="@color/white"
+                android:textAllCaps="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
